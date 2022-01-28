@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Contador de Cliques DIO</title>
+</head>
+
+<body>
+
+    <div id="titulo">
+        <h1>Contador de Cliques - Desafio DIO</h1>
+        <a href="https://github.com/jobsonjp/contador-js" target="blank"><img id="logo-git"
+                title="Abrir projeto no GitHub" src="assets/img/git-logo.png"></a>
+    </div>
+
+    <br>
+    <div id="contador1">
+        <h2>Contador de Clique <span style="color: rgba(255, 72, 0, 0.678)"> #1 - incrementa e decrementa indefinidamente</span> </h2>
+        <hr>
+        <p id="display1">0</p>
+
+        <button id="btn_decremento1" onclick="decrementar1()"><span style="font-size: 20px;"> - </span></button> <button
+            id="btn_incremento1" onclick="incrementar1()"><span style="font-size: 20px;"> + </span></button>
+    </div>
+
+    <hr>
+
+    <div id="contador2">
+        <h2>Contador de Clique <span style="color: rgba(255, 72, 0, 0.678)">#2 - incrementa e decrementa apenas no intervalo de 0 a 10</span></h2>
+        <hr>
+        <p id="display2">0</p>
+
+        <button id="btn_decremento2" onclick="decrementar2()"><span style="font-size: 20px;">-</span></button> <button
+            id="btn_incremento2" onclick="incrementar2()"><span style="font-size: 20px;">+</span></button>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

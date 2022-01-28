@@ -1,6 +1,6 @@
-# Contador de cliques em Javascript
+# Contador de Cliques em Javascript
 
-Contador - Desafio Javascript DIO
+Desafio Javascript DIO
 
 Projeto consiste em criar um contador de cliques. Aula ministrada por @stebsnusch e ao final foram deixados os seguintes desafios:
 
